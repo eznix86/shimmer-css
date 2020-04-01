@@ -1,0 +1,83 @@
+.shimmer-line {
+    height: 10px;
+    margin-top: 20px;
+    background: #777;
+}
+
+.shimmer-line-br {
+    border-radius: 8px;
+}
+.shimmer-line-full {
+    width: 100%;
+}
+.shimmer-line-80 {
+    width: 80%;
+}
+.shimmer-line-60 {
+    width: 60%;
+}
+.shimmer-line-40 {
+    width: 40%;
+}
+.shimmer-line-20 {
+    width: 20%;
+}
+.shimmer-line-10 {
+    width: 10%;
+}
+
+.shimmer-circle {
+    background: #777;
+    border-radius: 50%;
+}
+
+.shimmer-circle-lg {
+    height: 129px;
+    width: 129px;
+}
+
+.shimmer-circle-md {
+    height: 65px;
+    width: 65px;
+}
+
+.shimmer-circle-sm {
+    height: 33px;
+    width: 33px;
+}
+
+.shimmer-circle-x-sm {
+    height: 17px;
+    width: 17px;
+}
+
+
+.shimmer-wrapper {
+    width:100%;
+    height:100%;
+    animation: shimmer-full-view 0.5s forwards cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@keyframes shimmer-full-view {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+@keyframes shimmer-animation {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.shimmer-animate {
+    animation : shimmer-animation 2s infinite linear;
+    background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+}
