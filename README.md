@@ -1,6 +1,11 @@
 # shimmer-css
 Easiest way to add shimmer effect to your page with css
 
+Usage:
+```html
+<link href='https://gitcdn.link/repo/theArtechnology/shimmer-css/master/shimmer.css' rel='stylesheet' />
+```
+
 ```html
   <div class="shimmer-wrapper">
       <div class="shimmer-circle shimmer-circle-md shimmer-animate"></div>
@@ -13,3 +18,5 @@ Easiest way to add shimmer effect to your page with css
 ```
 
 Ported from blog: https://dev.to/dhilipkmr/the-loading-shimmer-29dc
+
+<img src="https://thepracticaldev.s3.amazonaws.com/i/ee98eait0o0s7q1mq2uy.gif"/>
