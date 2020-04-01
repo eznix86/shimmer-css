@@ -2,9 +2,7 @@
 Easiest way to add shimmer effect to your page with css
 
 Usage:
-```html
-<link href='https://gitcdn.link/repo/theArtechnology/shimmer-css/master/shimmer.css' rel='stylesheet' />
-```
+- Download the repository and add `shimmer.css` to your project.
 
 ```html
   <div class="shimmer-wrapper">
