@@ -2,9 +2,17 @@
 Easiest way to add shimmer effect to your page with css
 
 Usage:
+via a cdn:
 ```html
 <link href="https://unpkg.com/shimmer-css@1.0.0/shimmer.css" rel="stylesheet">
 ```
+via a package manager:
+```bash
+yarn add shimmer-css
+# or
+npm install --save shimmer-css
+```
+
 
 ```html
   <div class="shimmer-wrapper">
