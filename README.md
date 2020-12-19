@@ -1,4 +1,6 @@
 # shimmer-css
+<img src="shimmer.gif" style="margin:auto;display:block;" alt="custom shimmer"/>
+
 Easiest way to add shimmer effect to your page with css
 
 ### Usage:
