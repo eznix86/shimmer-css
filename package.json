@@ -1,0 +1,25 @@
+{
+  "name": "shimmer-css",
+  "version": "1.0.1",
+  "description": "Easiest way to add shimmer effect to your page with css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theArtechnology/shimmer-css.git"
+  },
+  "keywords": [
+    "shimmer",
+    "css",
+    "loading",
+    "effect"
+  ],
+  "author": "Joseph Jean Bruno Bernard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theArtechnology/shimmer-css/issues"
+  },
+  "homepage": "https://github.com/theArtechnology/shimmer-css#readme"
+}
